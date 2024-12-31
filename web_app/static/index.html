@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Tools</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Language Tools</h1>
+
+        <!-- Grammar Checker -->
+        <div class="tool">
+            <h2>Tamil Grammar Checker</h2>
+            <textarea id="grammarInput" placeholder="Enter Tamil sentence..."></textarea>
+            <button onclick="checkGrammar()">Check Grammar</button>
+            <p id="grammarOutput"></p>
+        </div>
+
+        <!-- Spelling Checker -->
+        <div class="tool">
+            <h2>Spelling Checker</h2>
+            <input type="text" id="spellingInput" placeholder="Enter a word...">
+            <button onclick="checkSpelling()">Check Spelling</button>
+            <p id="spellingOutput"></p>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
